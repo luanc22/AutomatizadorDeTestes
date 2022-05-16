@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Telas", "Telas", "{B2D07B10-3C44-484F-B097-8BA05D14A09A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{57C1805B-899B-4788-8A95-7E927A46CDC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomatizadorDeTestes.Dominio", "AutomatizadorDeTestes.Dominio\AutomatizadorDeTestes.Dominio.csproj", "{529FBEA1-E135-4412-9389-B786EC70A8BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomatizadorDeTestes.WinAppForm", "AutomatizadorDeTestes.WinAppForm\AutomatizadorDeTestes.WinAppForm.csproj", "{9D533C14-96E5-4DBD-9806-A79FA79DAA41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Arquivos", "Infra.Arquivos", "{FBC94630-7A87-4AFF-BABA-DA29A207A1AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomatizadorDeTestes.Infra.Arquivos", "AutomatizadorDeTestes.Infra.Arquivos\AutomatizadorDeTestes.Infra.Arquivos.csproj", "{CA22E1C9-2298-4669-92A2-1883B024A71B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{529FBEA1-E135-4412-9389-B786EC70A8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529FBEA1-E135-4412-9389-B786EC70A8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529FBEA1-E135-4412-9389-B786EC70A8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529FBEA1-E135-4412-9389-B786EC70A8BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D533C14-96E5-4DBD-9806-A79FA79DAA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D533C14-96E5-4DBD-9806-A79FA79DAA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D533C14-96E5-4DBD-9806-A79FA79DAA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D533C14-96E5-4DBD-9806-A79FA79DAA41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA22E1C9-2298-4669-92A2-1883B024A71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA22E1C9-2298-4669-92A2-1883B024A71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA22E1C9-2298-4669-92A2-1883B024A71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA22E1C9-2298-4669-92A2-1883B024A71B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{529FBEA1-E135-4412-9389-B786EC70A8BD} = {57C1805B-899B-4788-8A95-7E927A46CDC6}
+		{9D533C14-96E5-4DBD-9806-A79FA79DAA41} = {B2D07B10-3C44-484F-B097-8BA05D14A09A}
+		{CA22E1C9-2298-4669-92A2-1883B024A71B} = {FBC94630-7A87-4AFF-BABA-DA29A207A1AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1373F2C9-5D97-48A7-B208-1F0F5D47B72F}
+	EndGlobalSection
+EndGlobal
